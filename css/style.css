@@ -1,0 +1,194 @@
+a{
+    text-decoration: none;
+}
+body {
+    /*background: url('../img/backg.jpg') repeat-x;*/
+
+    height: auto;
+
+}
+#container{
+    /*font-family: "HelveticaNeue", Helvetica, Arial,sans-serif;*/
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.2em;
+}
+/*-------------------------------HEADER------------------------------*/
+#header{
+
+    background: url('../img/header-bg.jpg') repeat-x;
+    height: 83px;
+    width:100%;
+}
+#header-bg{
+    height:40px;
+    padding-top: 20px;
+}
+#logo{
+
+}
+/*--------------navegador-------------*/
+#nav {
+    margin-left:0px;
+}
+
+#nav ul {
+    margin-left: 45px;
+    margin-top: 7px;
+}
+#nav li {
+    border-right: solid 1px #252e34;
+    display: inline;
+    height:52px;
+    list-style: none;
+    margin-left: 0px;
+}
+#nav a:hover, #active-page a {
+    background: url("../img/boton-nav.png") no-repeat;
+    background-position:center;
+}
+#nav a {
+    color:#e8e8e8;
+    font-size:12px;
+    font-weight: bold;
+    padding: 13px 18px;
+}
+/*----------fin navegador--------------*/
+#search-box {
+    margin-top: 5px;
+}
+#search-box2{
+    background-position: left center;
+    background: transparent url("../img/search-box.png") no-repeat;
+    border:none;
+    height:25px;
+    width:150px;
+}
+/*--------------------------CONTENT.TOP------------------------------*/
+#content{
+    margin-top:-5px;
+}
+#content-top{
+    background: url("../img/content-top-bg2.jpg") repeat-x;
+    height:435px;
+}
+#slide{
+    background: url("../img/content-top-bg.jpg") repeat-x;
+}
+#content-top-left {
+    color: #e8e8e8;
+    line-height: 1.5em;
+    margin-top: 35px;
+    width:361px;
+}
+#content-top-left h1{
+    font-size:24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#content-top-left p, a{
+    font-size:12px;
+    margin-bottom: 30px;
+}
+#botom-2 {
+    height:36px;
+    margin-top:30px;
+    width:142px;
+}
+#botom-2 a{
+    background: url("../img/boton-2.png") no-repeat;
+    color: #e8e8e8;
+    font-family: "HelveticaNeue", Helvetica, Arial,sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    padding: 10px 26px;
+    text-decoration: none;
+}
+#content-top-right{
+    margin-left:29px;
+    margin-top: 10px;
+}
+/*--------------------------CONTENT-MIDDLE-----------------------------*/
+#content-middle{
+    background:url(../img/block-bg.jpg) no-repeat;
+    height:358px;
+    margin-top: -65px;
+}
+#content-middle .title{
+    color:#171717;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+#content-middle .second{
+    color:#d2d2d2;
+    font-size: 12px;
+}
+#content-middle .block{
+    color:#333333;
+    font-size: 12px;
+}
+#content-middle .content-middle-block{
+    font-size:12px;
+    height:336px;
+    padding-left: 24px;
+    padding-top:20px;
+    width:180px;
+}
+#content-middle .read{
+    padding-top: 15px;
+}
+#content-middle .read a{
+    color: #333333;
+    font-weight:bold;
+}
+/*--------------------------CONTENT-BOTTOM-----------------------------*/
+#content-bottom{
+    height:535px;
+    line-height: 1.2em;
+    padding-top: 40px;
+}
+#recent-work-title{
+    background: url(../img/barra.jpg) repeat-x;
+    background-position:bottom;
+    color: #333333;
+    font-size:15px;
+    font-weight:bold;
+    margin-left:34px;
+    padding-bottom: 15px;
+    width:917px;
+}
+#content-bottom-first{
+    margin-top: 30px;
+}
+#content-bottom-first-1 p{
+    margin-left: 25px;
+    width:185px;
+}
+#content-bottom-first-1 p .title{
+    color:#d2d2d2;
+}
+/*------------------------------FOOTER---------------------------------*/
+#footer{
+    background: url(../img/footer-bg.jpg) repeat-x;
+    height:351px;
+    line-height: 1.2em;
+    width:100%;
+}
+#footer-top{
+    color:#E8E8E8;
+    padding-top: 40px;
+}
+#footer-top .footer-title{
+    border-bottom: solid 1px #6c6c6c;
+    font-size:16px;
+    padding-bottom: 17px;
+}
+#footer-top .first{
+    font-size:12px;
+    padding-bottom: 20px;
+}
+#footer-bottom {
+    padding-top: 10px;
+}
+#footer-bottom a{
+    color: #818181;
+}
