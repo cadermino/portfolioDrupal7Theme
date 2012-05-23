@@ -2,7 +2,7 @@ a{
     text-decoration: none;
 }
 body {
-    /*background: url('../img/backg.jpg') repeat-x;*/
+    /*background: url('../images/backg.jpg') repeat-x;*/
 
     height: auto;
 
@@ -15,7 +15,7 @@ body {
 /*-------------------------------HEADER------------------------------*/
 #header{
 
-    background: url('../img/header-bg.jpg') repeat-x;
+    background: url('../images/header-bg.jpg') repeat-x;
     height: 83px;
     width:100%;
 }
@@ -43,7 +43,7 @@ body {
     margin-left: 0px;
 }
 #nav a:hover, #active-page a {
-    background: url("../img/boton-nav.png") no-repeat;
+    background: url("../images/boton-nav.png") no-repeat;
     background-position:center;
 }
 #nav a {
@@ -58,7 +58,7 @@ body {
 }
 #search-box2{
     background-position: left center;
-    background: transparent url("../img/search-box.png") no-repeat;
+    background: transparent url("../images/search-box.png") no-repeat;
     border:none;
     height:25px;
     width:150px;
@@ -68,11 +68,11 @@ body {
     margin-top:-5px;
 }
 #content-top{
-    background: url("../img/content-top-bg2.jpg") repeat-x;
+    background: url("../images/content-top-bg2.jpg") repeat-x;
     height:435px;
 }
 #slide{
-    background: url("../img/content-top-bg.jpg") repeat-x;
+    background: url("../images/content-top-bg.jpg") repeat-x;
 }
 #content-top-left {
     color: #e8e8e8;
@@ -95,7 +95,7 @@ body {
     width:142px;
 }
 #botom-2 a{
-    background: url("../img/boton-2.png") no-repeat;
+    background: url("../images/boton-2.png") no-repeat;
     color: #e8e8e8;
     font-family: "HelveticaNeue", Helvetica, Arial,sans-serif;
     font-size:13px;
@@ -109,7 +109,7 @@ body {
 }
 /*--------------------------CONTENT-MIDDLE-----------------------------*/
 #content-middle{
-    background:url(../img/block-bg.jpg) no-repeat;
+    background:url(../images/block-bg.jpg) no-repeat;
     height:358px;
     margin-top: -65px;
 }
@@ -147,7 +147,7 @@ body {
     padding-top: 40px;
 }
 #recent-work-title{
-    background: url(../img/barra.jpg) repeat-x;
+    background: url(../images/barra.jpg) repeat-x;
     background-position:bottom;
     color: #333333;
     font-size:15px;
@@ -168,7 +168,7 @@ body {
 }
 /*------------------------------FOOTER---------------------------------*/
 #footer{
-    background: url(../img/footer-bg.jpg) repeat-x;
+    background: url(../images/footer-bg.jpg) repeat-x;
     height:351px;
     line-height: 1.2em;
     width:100%;
