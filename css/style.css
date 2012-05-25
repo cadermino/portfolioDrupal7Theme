@@ -27,26 +27,26 @@ body {
 
 }
 /*--------------navegador-------------*/
-#nav {
+#navigation {
     margin-left:0px;
 }
 
-#nav ul {
+#navigation ul {
     margin-left: 45px;
     margin-top: 7px;
 }
-#nav li {
+#navigation li {
     border-right: solid 1px #252e34;
     display: inline;
     height:52px;
     list-style: none;
     margin-left: 0px;
 }
-#nav a:hover, #active-page a {
+#navigation a:hover, #active-page a {
     background: url("../images/boton-nav.png") no-repeat;
     background-position:center;
 }
-#nav a {
+#navigation a {
     color:#e8e8e8;
     font-size:12px;
     font-weight: bold;
@@ -54,14 +54,35 @@ body {
 }
 /*----------fin navegador--------------*/
 #search-box {
-    margin-top: 5px;
+    background: url("../images/search-box.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 26px;
+    margin: 5px 8px 0 0;
+    width: 150px;
 }
-#search-box2{
-    background-position: left center;
-    background: transparent url("../images/search-box.png") no-repeat;
-    border:none;
-    height:25px;
-    width:150px;
+#search-box p {
+    float: left;
+}
+#search-box input[type="submit"] {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+    font-size: 0;
+    height: 26px;
+    line-height: 0;
+    text-indent: -999em;
+    width: 25px;
+}
+#search-box input[type="text"] {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #CCCCCC;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    padding: 3px 5px;
+    width: 110px;
 }
 /*--------------------------CONTENT.TOP------------------------------*/
 #content{
