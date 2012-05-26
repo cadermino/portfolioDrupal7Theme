@@ -3,13 +3,13 @@ a{
 }
 body {
     /*background: url('../images/backg.jpg') repeat-x;*/
-
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     height: auto;
 
 }
 #container{
     /*font-family: "HelveticaNeue", Helvetica, Arial,sans-serif;*/
-    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
     line-height: 1.2em;
 }
 /*-------------------------------HEADER------------------------------*/
@@ -42,7 +42,7 @@ body {
     list-style: none;
     margin-left: 0px;
 }
-#navigation a:hover, #active-page a {
+#navigation a:hover, .active a {
     background: url("../images/boton-nav.png") no-repeat;
     background-position:center;
 }
@@ -50,7 +50,7 @@ body {
     color:#e8e8e8;
     font-size:12px;
     font-weight: bold;
-    padding: 13px 18px;
+    padding: 13px 16px;
 }
 /*----------fin navegador--------------*/
 #search-box {

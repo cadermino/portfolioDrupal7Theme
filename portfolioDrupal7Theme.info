@@ -13,15 +13,25 @@ stylesheets[all][] = css/960.css
 ;Scripts
 scripts[] = js/jquery.orbit-1.2.3.min.js
 
-regions[page_top]       = Page top
-regions[header]         = Header
-regions[search_box]     = Search Box
-regions[highlighted]    = Highlight
-regions[help]           = Help
-regions[content]        = Content
-regions[sidebar_first]  = Left sidebar
-regions[sidebar_second] = Right sidebar
-regions[footer]         = Footer
-regions[page_bottom]    = Page bottom
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+;regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
 
 

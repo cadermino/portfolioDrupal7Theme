@@ -4,16 +4,17 @@
       <div class="container_12" id="container">
         <div id="header-bg">
           <div class="grid_3" id="logo">
-            <h1 id="site-name">
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-            </h1>
+            <?php if ($logo): ?>
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+              </a>
+            <?php endif; ?>
           </div><!-- fin logo -->
-           <?php if ($main_menu || $secondary_menu): ?>
-      <div id="navigation" class="grid_7">
-        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
-        <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Secondary menu'))); ?>
-      </div> <!-- /.section, /#navigation -->
-    <?php endif; ?>
+          <div id="navigation" class="grid_7">
+          <?php if ($main_menu): ?>
+            <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
+          <?php endif; ?>
+          </div> <!-- /.section, /#navigation -->
           <div class="grid_2" id="search-box">
             <!-- <form action="#" method="post">
                 <input id="search-box2" name="search-box" type="text" value="" />
@@ -27,6 +28,7 @@
           </div><!-- fin search-box -->
           </div><!-- fin header-bg -->
         </div><!-- fin container -->
+        <?php print render($page['header']); ?>
       </div><!-- fin de header -->
       <div class="clear"></div>
       <div id="content">
