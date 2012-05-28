@@ -1,4 +1,3 @@
-  <!-- Contains and centers the page -->
   <div id="page-wrapper"><div id="page">
     <div id="header">
       <div class="container_12" id="container">
@@ -11,10 +10,10 @@
             <?php endif; ?>
           </div><!-- fin logo -->
           <div id="navigation" class="grid_7">
-          <?php if ($main_menu): ?>
-            <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
-          <?php endif; ?>
-          </div> <!-- /.section, /#navigation -->
+            <?php if ($main_menu): ?>
+              <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
+            <?php endif; ?>
+          </div> <!--navigation -->
           <div class="grid_2" id="search-box">
             <!-- <form action="#" method="post">
                 <input id="search-box2" name="search-box" type="text" value="" />
